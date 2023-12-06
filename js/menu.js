@@ -1,5 +1,5 @@
 async function getResponce() {
-    let responce = await fetch("../data/menu.json")
+    let responce = await fetch("./data/menu.json")
 
     let content = await responce.text()
     //console.log(content)
